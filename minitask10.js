@@ -3,11 +3,11 @@ angka.reverse();
 console.log(angka);
 
 let angka2 = [1,2,3,4,5];
-let hasilBalik = [];
-let arrayKosong = 0;
+let arrayKosong = [];
+let hasilBalik = 0;
 for(let i = angka2.length - 1; i >= 0;i--) {
     let array = angka2[i];
-    hasilBalik[arrayKosong] = array;
-     arrayKosong++;
+    arrayKosong[hasilBalik] = array;
+     hasilBalik++;
 };
-console.log(hasilBalik);
+console.log(arrayKosong);
